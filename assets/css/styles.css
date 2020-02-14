@@ -1,5 +1,5 @@
-.navbar,.navbar-light,.bg-light{
-    color: gray;
+.name{
+    color: white;
 }
 
 li{
@@ -9,7 +9,7 @@ li{
 
 li a{
     display: inline;
-    color: black;
+    color:white;
 }
 
 .hero{
@@ -23,7 +23,22 @@ li a{
 .flex-container{
     display: flex;
     justify-content: center;
-    padding-top: 250px;
+}
+
+#contact-card{
+    margin-top: auto;
+}
+
+.col-lg-4{
+    padding: 25px;
+}
+
+.col-lg-8,.col-md-8{
+    float: left;
+}
+
+.jumbotron{
+    padding: 10px;
 }
 
 .col-lg-6{
@@ -32,11 +47,12 @@ li a{
 }
 
 .footer{
+    padding: 15px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: gray;
-    color: black;
+    background-color: #333333;
+    color: white;
     text-align: center;
 }
