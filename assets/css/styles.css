@@ -33,8 +33,10 @@ li a{
     padding: 25px;
 }
 
+
 .col-lg-8,.col-md-8{
-    float: left;
+    position: absolute;
+    right: 0px;
 }
 
 .jumbotron{
