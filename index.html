@@ -1,82 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <title>Document</title>
 </head>
+
 <body>
   <nav class="navbar navbar-light" style="background-color: #393939;">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/images/r.logo.svg" width="60" height="40" class="d-inline-block align-top" alt="R">
-          <p class="name">Robert Williams</p></a>
-        <ul>
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    </nav>
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/r.logo.svg" width="60" height="40" class="d-inline-block align-top" alt="R">
+      <p class="name">Robert H Williams III</p>
+    </a>
+    <ul>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-<div class="hero">
-<div class="flex-container">
-<div class="row">
-      <div col-lg-12>
-        <div class="card" id="welcome-card" style="width: 20rem;">
-        <img src="assets/images/bonfire.jpg" class="card-img-top" alt="Bonfire">
-        <div class="card-body">
-        <h5 class="card-title">Welcome!</h5>
-        <p class="card-text">Welcome to my portfolio! Feel free to look at previous projects I have worked on or click on the contact   button below.</p>
-        <a href="contact.html" class="btn btn-primary">Contact</a>
+  <div class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card" id="welcome-card" style="width: 20rem;">
+            <img src="assets/images/bio-pic.jpg" class="card-img-top" alt="Bio Pic">
+            <div class="card-body">
+              <h5 class="card-title">Welcome!</h5>
+              <p class="card-text">Hello my name is Robert Williams! I am a web developer, future game developer, and account representative for A3 Marketing. I love writing code and creating/styling websites and other web applications.</p>
+              <a href="https://github.com/rwilliamsIII" target="_blank" class="btn btn-primary">GitHUB</a>
+              <a href="https://www.linkedin.com/in/robert-williams-76251a1a1/" target="_blank" class="btn btn-primary">LinkedIN</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+          <div class="info-card-background">
+          <p><b>Used Technologies/Tools:</b></p>
+          <p>HTML5/JavaScript/ES6/jQuery/AJAX/Google-Maps-API/CSS/JSON/Bootstrap/UIKit/MomentJS</p>
+          <p><b>Education:</b></p>
+          <p>Current student of Triology Coding Bootcamp at Vanderbilt University.</p>
+          <p><b>Resume:</b></p>
+          <a href="assets/images/RHW3-resume.pdf" target="_blank">Click Here!</a>
         </div>
         </div>
       </div>
-
-  <div class="row">
-  <div col-lg-4>
-        <ul class="list-group list-group-horizontal-lg">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-        </ul>
-        <div class="row">
-          <div col-md-4>
-            <ul class="list-group list-group-horizontal-md">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-            </ul>
-          </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="project-banner">
+      <h1 class="project-header">Check out some of my previous projects!</h1>
+    </div>
+    <br>
+    <br>
+    <div class="card-deck">
+      <div class="card">
+        <img src="assets/images/weather-dashboard-pic.png" class="card-img-top" alt="Weather-Dashboard">
+        <div class="card-body">
+          <h5 class="card-title">Weather-Dashboard</h5>
+          <p class="card-text">This is a project I worked on to create a weather dashboard for users. When a user searches a city, the current weather of the city they searched as well as a five-day forecast will appear on the screen. The searches history will go on the right so a user can simply click on the desired city again instead of searching.</p>
+          <a href="https://rwilliamsiii.github.io/Weather-Dashboard/" target="_blank" class="btn btn-primary">Live Link</a>
+          <a href="https://github.com/rwilliamsIII/Weather-Dashboard" target="_blank" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/directions-project-pic.png" class="card-img-top" alt="Where ya goin my person?">
+        <div class="card-body">
+          <h5 class="card-title">Directions & Weather App</h5>
+          <p class="card-text">This was a group project I worked on that uses the Google Maps API as well as the OpenWeatherMapAPI. A user can input their starting and ending destinations and get step by step directions as well as the current weather of their destination.</p>
+          <a href="https://rwilliamsiii.github.io/directions-weather/" target="_blank" class="btn btn-primary">Live Link</a>
+          <a href="https://github.com/rwilliamsIII/directions-weather" target="_blank" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/ghc-pic.png" class="card-img-top" alt="GHC Site">
+        <div class="card-body">
+          <h5 class="card-title">GHC Website</h5>
+          <p class="card-text">This is a fully mobile responsive website I am building for a client at work.</p>
+          <a href="http://www.goodlettsvillehandc.com/" target="_blank" class="btn btn-primary">Live Link</a>
+          <a href="https://github.com/rwilliamsIII/GHC" target="_blank" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-</div>   
-</div>
-  <br>
-  <br>
-  <br>
-    <div class="jumbotron">
-      <h1 class="display-4">Coding Rocks!</h1>
-      <p class="lead">You can do some pretty nifty stuff with coding.</p>
-      <hr class="my-4">
-      <p>Check out some of the things I've built!</p>
-      <a class="btn btn-primary btn-lg" href="portfolio.html" role="button">Learn more</a>
-    </div>
-</div> 
 
-<div class="footer">
-  <p>Robert Harvey Williams III</p>
-</div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <div class="footer">
+    <p class="footer-text">Robert Harvey Williams III</p>
+    <p class="footer-text">robert@a3marketing.com</p>
+    <p class="footer-text">(615)483-9145</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
