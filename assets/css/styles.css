@@ -61,6 +61,15 @@
      margin-top: 10px;
      margin-left: 160px
  }
+
+ .technologies {
+     color: whitesmoke;
+     font-family: 'Shadows Into Light', cursive;
+ }
+
+ #tech-header {
+     color: whitesmoke;
+ }
  
  @media only screen and (max-width: 768px) {
     .demo .main-title {
