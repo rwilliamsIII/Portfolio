@@ -1,5 +1,9 @@
 # Portfolio
 
+<img id="license" src="https://img.shields.io/badge/License-MIT-blueviolet">
+<br style="line-height: 12px">
+<img src="https://avatars2.githubusercontent.com/u/60420479?v=4" style= "width: 200px; height: 150px">
+
 ## <h2 id="#description">Project Description</h2>
 My portfolio to house some of my previous work and contact info.
 
@@ -17,9 +21,7 @@ HTML/CSS/SemanticUI
 
 ## <h2 id="contributors">Contributors</h2>
 [rwilliamsIII](rwilliamsIII)
-[timothymickiewicz](timothymickiewicz)
-[iean-hennig](iean-hennig)
-[Loki-Malone](Loki-Malone)
+
 
 
 ## <h2 id="contact">Contact</h2>
