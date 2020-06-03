@@ -1,10 +1,31 @@
 # Portfolio
 
-Contributors: Robert Williams (@rwilliamsIII)
+## <h2 id="#description">Project Description</h2>
+My portfolio to house some of my previous work and contact info.
 
-Technology Used: MIT, HTML, CSS, Bootstrap
+## Table of Contents
 
-Description: Created responsive design and framework for personal portfolio. I used Bootstrap design for the navbar, and the Bootstrap grid layout for the image cards. Styled with external CSS and incorporated a CSS reset. Created media queries for mobile responsiveness. 
+* <a href="#license">License</a>
+* <a href="#description">Description</a>
+* <a href="#technology">Technologies Used</a>
+* <a href="#contributors">Contributors</a>
+* <a href="#contact">Contact</a>
 
-Contact: robert@a3marketing.com
-        github: rwilliamsIII
+    
+## <h2 id="technology">Technologies Used</h2>
+HTML/CSS/SemanticUI
+
+## <h2 id="contributors">Contributors</h2>
+[rwilliamsIII](rwilliamsIII)
+[timothymickiewicz](timothymickiewicz)
+[iean-hennig](iean-hennig)
+[Loki-Malone](Loki-Malone)
+
+
+## <h2 id="contact">Contact</h2>
+
+* #### Name: Robert Williams
+* #### GitHUB: https://github.com/rwilliamsIII
+* #### Portfolio: [https://rwilliamsiii.github.io/Portfolio/](https://rwilliamsiii.github.io/Portfolio/)
+* #### Email: robert@a3marketing.com
+* #### LinkedIN: [https://www.linkedin.com/in/robertwilliams2715/](https://www.linkedin.com/in/robertwilliams2715/)
