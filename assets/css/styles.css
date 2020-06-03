@@ -52,7 +52,7 @@
      
  }
 
- .contactBtn {
+ #contactBtn {
      background-color: black;
      color: whitesmoke;
      border-style: solid;
@@ -72,8 +72,71 @@
  }
 
  .projects {
+     z-index: 6;
      color: whitesmoke;
-     text-align: center;
+ }
+
+ #repoBtn {
+     background-color: black;
+     color: white;
+     border-style: solid;
+     border-radius: 5px;
+     padding: 5px;
+     margin-top: 10px;
+     margin-left: 160px
+ }
+
+ #live-linkBtn {
+     background-color: black;
+     color: white;
+     border-style: solid;
+     border-radius: 5px;
+     padding: 5px;
+ }
+
+ .contact-icons {
+     margin-left: 45% !important;
+     z-index: 6;
+ }
+
+ .jumbo {
+     background-color: whitesmoke;
+     padding: 50px;
+     z-index: 7;
+ }
+
+ .email {
+     margin-left: 120px;
+ }
+ 
+ .github {
+     margin-left: 190px;
+ }
+
+ .linkedin {
+     margin-left: 190px;
+ }
+
+ .emailIcon, .githubIcon, .linkedinIcon {
+     border-radius: 10px;
+     max-width: 300px;
+     max-height: 200px;
+ }
+
+ .resumeLink {
+     margin-left: 40%;
+     padding: 20px;
+ }
+
+ .homeLink {
+     margin-left: 20%;
+     padding: 20px;
+ }
+
+ .homeIcon, .resumeIcon {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 150px;
  }
  
  @media only screen and (max-width: 768px) {
