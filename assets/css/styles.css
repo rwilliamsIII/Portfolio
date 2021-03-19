@@ -43,6 +43,10 @@
     font-weight: 200;
  }
 
+ #profileCard {
+     margin-left: 24% !important;
+ }
+
  .content {
      z-index: 5;
  }
