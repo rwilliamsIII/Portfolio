@@ -20,7 +20,7 @@
     max-height: 1000px;
  } */
  
- .main-title {
+ /* .main-title {
     position: absolute;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@
  
  .main-title .thin {
     font-weight: 200;
- }
+ } */
 
  #profileCard {
      margin-left: 24% !important;
