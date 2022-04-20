@@ -76,7 +76,7 @@
  .projects {
      z-index: 6;
      color: black !important;
-     align-self: center;
+     text-align: center;
  }
 
  #repoBtn {
