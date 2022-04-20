@@ -67,17 +67,17 @@
  }
 
  .technologies {
-     color: whitesmoke;
+     color: black;
      font-family: 'Shadows Into Light', cursive;
  }
 
  #tech-header {
-     color: whitesmoke;
+     color: black;
  }
 
  .projects {
      z-index: 6;
-     color: whitesmoke;
+     color: black;
  }
 
  #repoBtn {
