@@ -47,9 +47,7 @@
      margin-left: 24% !important;
  }
 
- .content {
-     z-index: 5;
- }
+
 
  .card {
      margin-left: 15% !important;
@@ -66,7 +64,7 @@
      margin-left: 160px
  }
 
- .technologies {
+ #techHeader {
      color: black !important;
      font-family: 'Shadows Into Light', cursive;
  }
