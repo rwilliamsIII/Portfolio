@@ -74,9 +74,9 @@
  }
 
  #projects {
+     text-align: center;
      z-index: 6;
      color: black !important;
-     text-align: center;
  }
 
  #repoBtn {
