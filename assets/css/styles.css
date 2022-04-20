@@ -73,7 +73,7 @@
      color: black !important;
  }
 
- .projects {
+ #projects {
      z-index: 6;
      color: black !important;
      text-align: center;
